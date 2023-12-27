@@ -36,7 +36,7 @@ You can view the screenshots of my work below.😊
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/dynamic-faq-accordion-using-javascript-conditional-statements-Cdz6uWwhzP
 - Live Site URL: https://tenze21.github.io/FAQ-Accordion-frontend-mentor/
 
 ## My process

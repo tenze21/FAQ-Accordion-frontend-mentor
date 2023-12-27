@@ -37,7 +37,7 @@ You can view the screenshots of my work below.😊
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://tenze21.github.io/FAQ-Accordion-frontend-mentor/
 
 ## My process
 firstly as i usually do i went through the challenge and spend sometime trying to recreate a the project in my mind asking myself how I would make things work. Then i started off with the html file later styling it with css and then finally implenting the dynamics in javascript which took a while for me.

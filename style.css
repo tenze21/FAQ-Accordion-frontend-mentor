@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #ffe7ff;
+}
+.container{
+  width: 30rem;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: white;
+}
+.header{
+  font-family: 'work sans', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 0 20px 15px;
+}
+.question{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.answer2,.answer3,.answer4{
+  font-family: 'work sans', sans-serif;
+  display: none;
+  color: gray;
+  font-weight: 400;
+}
+.answer1{
+  color: gray;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+}
+.question-1,.question-2,.question-3,.question-4{
+  margin: 20px 5px;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.show1,.show2,.show3,.show4{
+  cursor: pointer;
+}
+.show1{
+  display: none;
+}
+.hide1,.hide2,.hide3,.hide4{
+  cursor: pointer;
+}
+.hide2,.hide3,.hide4{
+  display: none;
+}
+@media screen and (max-width:375px){
+    .container{
+        border-radius: 8px;
+        width: 18rem;
+    }
+    .header{
+        font-size: 1rem;
+    }
+    .question-1,.question-2,.question-3,.question-4{
+        margin: 10px 5px;
+        font-family: 'work sans', sans-serif;
+        font-size: 0.625rem;  
+    }
+    body{
+        background-image: url(assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .show4,.show1,.show2,.show3{
+        width: 30px;
+    }
+    .hide1,.hide2,.hide3,.hide4{
+        width: 30px;
+    }
+}

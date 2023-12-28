@@ -75,7 +75,7 @@ body{
 .hide2,.hide3,.hide4{
   display: none;
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:450px){
     .container{
         border-radius: 8px;
         width: 18rem;
